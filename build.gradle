@@ -19,7 +19,7 @@ group 'com.practice.java'
 version '1.0-SNAPSHOT'
 
 version = this.properties["application.version"]
-archivesBaseName = 'base-project'
+archivesBaseName = 'spring-boot'
 mainClassName = 'com.java.practice.Application'
 
 def applicationVersion = this.properties["application.version"]
