@@ -59,4 +59,8 @@ public class IndexController extends BaseController {
         }
     }
 
+    @GetMapping(UrlPaths.LOCALIZATION)
+    public String getLocalization(HttpServletRequest httpServletRequest) {
+        return "localization";
+    }
 }
