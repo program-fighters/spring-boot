@@ -4,4 +4,5 @@ public interface UrlPaths {
     String API_VERSION = "/api-version";
     String INDEX = "/";
     String TIME = "/currentMillis";
+    String LOCALIZATION= "/local";
 }
